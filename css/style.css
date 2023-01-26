@@ -1,0 +1,324 @@
+
+body{
+   
+    font-family: 'Be Vietnam Pro', sans-serif, 'Times New Roman', Times, serif, Arial, Helvetica, sans-serif;
+}
+
+/*header*/
+
+header{
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+    
+
+
+
+.flex{
+    display:flex;
+    align-content: center;
+   
+}
+
+.logo{
+    max-width: 145.54px;
+    max-height: 23.74px;
+    margin-top: 4%;
+   
+}
+
+.btn{
+    width: 134px;
+    height: 44px;
+    background: rgb(139, 72, 191);
+    border-radius: 50px;
+    color:white;
+    border:rgb(139, 72, 191);
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+    /*padding: 10px;
+    /*margin-top: 2%;
+    margin-right: 5%;*/
+}
+
+.bt-marg{
+    margin-top: 3%;
+
+}
+
+button{
+    font-size: 13.1806px;
+}
+
+/*ocultar menu hamburguesa*/
+.fa-bars {
+    display: none;
+}
+
+li{
+     margin: 2vw; 
+   
+}
+
+a{
+    text-decoration: none;
+    color:#242E52;
+    font-size: 13px;
+}
+
+a:hover{
+    color:#242E5299;
+}
+
+/*Main*/
+main{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+/*Main Estadisticas*/
+
+
+.stad-flex{
+    display: flex;
+    justify-content:space-between;
+    
+}
+article{
+    
+    width: 35vw;
+
+}
+
+
+h1{
+    font-size: 58px;
+}
+
+p{
+    font-size: 16.5584px;
+}
+
+
+.img-inner{
+
+    width: 35vw; 
+    padding-top: 5%;
+   }
+
+/*About*/
+
+.about{
+    display: flex;
+    justify-content:space-between;;
+    width: 100%;
+}
+
+h2{
+    font-size: 36px;
+}
+
+p{
+    font-size: 16px;
+}
+
+.feature{
+    display:flex;
+    gap: 10px;
+    align-items: center;
+
+}
+
+.h4{
+    font-size: 16px;
+}
+
+.ft-btn{
+    width: 69px;
+    height: 43px;
+    color: #FFFFFF;
+    background: #8B48BF;
+    border:rgb(139, 72, 191);
+    border-radius: 30px ;
+    padding: 10px 25px;
+    
+}
+
+.ft-text{
+    padding-left:69px;
+    text-align: justify;
+    color:#B3B2B7;
+}
+
+/*Cards Tittle*/
+
+.opinions{
+    font-size: 39.2143px;
+    text-align: center;
+}
+
+/*Cards*/
+
+.cards{
+    display: flex;
+    justify-content:space-between;
+
+}
+.card{
+    width: 35vw;
+    height: 100%;
+}
+
+.comment{
+    background-color: #FAFAFA;
+    text-align: center;
+    padding-top:5%;
+    width: 28vw;
+    
+}
+
+.foto{
+    display:block;
+    margin:auto;
+    position:relative;
+    top: 3vh;
+}
+
+/*boton final del main*/
+
+.bt{
+    width: 134px;
+    height: 44px;
+    background: rgb(139, 72, 191);
+    border-radius: 50px;
+    color:white;
+    border:rgb(139, 72, 191);
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+   
+}
+
+.div-button{
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+    
+}
+
+.bt-hover:hover{
+    background-color: #8B48BFB2;
+}
+
+/*Final*/
+
+.final{
+    width:100%;
+    background-color: #8B48BF;
+    margin-top: 5%;
+}
+.btn-white{
+    width: 134px;
+    height: 44px;
+    background: rgb(255, 255, 255);
+    border-radius: 50px;
+    color:rgb(139, 72, 191);
+    border:rgb(255, 255, 255);
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+    margin-right: 10%;
+    margin-top: 2%;
+    
+}
+
+.final-letra{
+
+    font-size: 40px;
+    color:#ffffff;
+    margin-left: 10%;
+    width: 445px;
+    
+}
+
+.final-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*footer*/
+
+footer{
+    
+    background-color: #000000;
+}
+
+.f-flex{
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+
+}
+
+.fa-brands {
+    color:white;
+    padding:8px;
+}
+
+.columns{
+    display: flex;
+    gap:10%;
+       
+}
+
+.column ul li {
+    
+    width: 100%;
+
+}
+
+
+.column ul li a{
+    color: #ffffff;
+ 
+
+}
+
+.logofinal-iconos{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.btn-go{
+    background: #8B48BF;
+    border-radius: 50px;
+    color:white;
+    width: 63px;
+    height: 42px;
+}
+
+.email{
+    width: 201px;
+    height: 44px;
+    background: #FFFFFF;
+    border-radius: 50px;
+}
+
+.email-btn{
+    display: flex;
+    align-items: center;
+}
+
+.copyright{
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 5vh;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.copyright a{
+    color: #8C8C94;
+}
